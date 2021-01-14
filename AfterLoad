@@ -1,0 +1,560 @@
+-- currently just a gui source
+-- Version: 3.2
+
+-- Instances:
+
+local Vortex = Instance.new("ScreenGui")
+local DropDown = Instance.new("Frame")
+local Selection = Instance.new("TextButton")
+local Menu = Instance.new("ScrollingFrame")
+local UI = Instance.new("UIListLayout")
+local Exit = Instance.new("TextButton")
+local Button = Instance.new("TextButton")
+local LocalPlayer = Instance.new("TextButton")
+local Filler = Instance.new("TextButton")
+local Dust = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Local = Instance.new("Frame")
+local Selection_2 = Instance.new("TextButton")
+local Menu_2 = Instance.new("ScrollingFrame")
+local UI_2 = Instance.new("UIListLayout")
+local Filler_2 = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local DustMenu = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local LocalPlayerMenu = Instance.new("Frame")
+local TextButton_4 = Instance.new("TextButton")
+
+--Properties:
+
+Vortex.Name = "Vortex"
+Vortex.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+DropDown.Name = "DropDown"
+DropDown.Parent = Vortex
+DropDown.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+DropDown.BackgroundTransparency = 1.000
+DropDown.BorderSizePixel = 0
+DropDown.Position = UDim2.new(0.375, 0, 0.200000003, 0)
+DropDown.Size = UDim2.new(0.25, 0, 0.075000003, 0)
+
+Selection.Name = "Selection"
+Selection.Parent = DropDown
+Selection.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Selection.BackgroundTransparency = 1.000
+Selection.Position = UDim2.new(-1.47552586, 0, -2.42424226, 0)
+Selection.Size = UDim2.new(0.499074638, 0, 0.361179382, 0)
+Selection.Font = Enum.Font.SourceSansSemibold
+Selection.Text = "Vortex Hub"
+Selection.TextColor3 = Color3.fromRGB(255, 255, 255)
+Selection.TextScaled = true
+Selection.TextSize = 14.000
+Selection.TextWrapped = true
+
+Menu.Name = "Menu"
+Menu.Parent = DropDown
+Menu.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Menu.BackgroundTransparency = 0.600
+Menu.BorderSizePixel = 0
+Menu.Position = UDim2.new(-1.45095623, 0, -1.91564274, 0)
+Menu.Size = UDim2.new(0.474505067, 0, 0, 0)
+Menu.ScrollBarThickness = 8
+
+UI.Name = "UI"
+UI.Parent = Menu
+UI.SortOrder = Enum.SortOrder.LayoutOrder
+
+Exit.Name = "Exit"
+Exit.Parent = Menu
+Exit.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Exit.BackgroundTransparency = 1.000
+Exit.BorderSizePixel = 0
+Exit.Size = UDim2.new(1, 0, 0, 35)
+Exit.Visible = false
+Exit.Font = Enum.Font.SourceSansSemibold
+Exit.Text = "Exit"
+Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+Exit.TextScaled = true
+Exit.TextSize = 14.000
+Exit.TextWrapped = true
+
+Button.Name = "Button"
+Button.Parent = Menu
+Button.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Button.BackgroundTransparency = 1.000
+Button.BorderSizePixel = 0
+Button.Size = UDim2.new(1, 0, 0, 35)
+Button.Visible = false
+Button.Font = Enum.Font.SourceSansSemibold
+Button.Text = "Da Hood"
+Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+Button.TextScaled = true
+Button.TextSize = 14.000
+Button.TextWrapped = true
+
+LocalPlayer.Name = "LocalPlayer"
+LocalPlayer.Parent = Menu
+LocalPlayer.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+LocalPlayer.BackgroundTransparency = 1.000
+LocalPlayer.BorderSizePixel = 0
+LocalPlayer.Size = UDim2.new(1, 0, 0, 35)
+LocalPlayer.Visible = false
+LocalPlayer.Font = Enum.Font.SourceSansSemibold
+LocalPlayer.Text = "LocalPlayer"
+LocalPlayer.TextColor3 = Color3.fromRGB(255, 255, 255)
+LocalPlayer.TextScaled = true
+LocalPlayer.TextSize = 14.000
+LocalPlayer.TextWrapped = true
+
+Filler.Name = "Filler"
+Filler.Parent = Menu
+Filler.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Filler.BackgroundTransparency = 1.000
+Filler.BorderSizePixel = 0
+Filler.Size = UDim2.new(1, 0, 0, 35)
+Filler.Visible = false
+Filler.Font = Enum.Font.SourceSansSemibold
+Filler.Text = "Coming Soon!"
+Filler.TextColor3 = Color3.fromRGB(255, 255, 255)
+Filler.TextScaled = true
+Filler.TextSize = 14.000
+Filler.TextWrapped = true
+
+Dust.Name = "Dust"
+Dust.Parent = Menu
+Dust.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Dust.BackgroundTransparency = 1.000
+Dust.BorderSizePixel = 0
+Dust.Size = UDim2.new(1, 0, 0, 35)
+Dust.Visible = false
+Dust.Font = Enum.Font.SourceSansSemibold
+Dust.Text = "Dust: Wasteland Survival"
+Dust.TextColor3 = Color3.fromRGB(255, 255, 255)
+Dust.TextScaled = true
+Dust.TextSize = 14.000
+Dust.TextWrapped = true
+
+TextLabel.Parent = DropDown
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(1.81472552, 0, -2.2609601, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 18)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Join Our Discord! https://discord.gg/MP2RXKJh"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+Local.Name = "Local"
+Local.Parent = Vortex
+Local.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Local.BackgroundTransparency = 1.000
+Local.BorderSizePixel = 0
+Local.Position = UDim2.new(0.375, 0, 0.200000003, 0)
+Local.Size = UDim2.new(0.25, 0, 0.075000003, 0)
+
+Selection_2.Name = "Selection"
+Selection_2.Parent = Local
+Selection_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Selection_2.BackgroundTransparency = 1.000
+Selection_2.Position = UDim2.new(-0.859614849, 0, -2.40786219, 0)
+Selection_2.Size = UDim2.new(0.499074638, 0, 0.361179382, 0)
+Selection_2.Font = Enum.Font.SourceSansSemibold
+Selection_2.Text = "LocalPlayer"
+Selection_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Selection_2.TextScaled = true
+Selection_2.TextSize = 14.000
+Selection_2.TextWrapped = true
+
+Menu_2.Name = "Menu"
+Menu_2.Parent = Local
+Menu_2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Menu_2.BackgroundTransparency = 0.600
+Menu_2.BorderSizePixel = 0
+Menu_2.Position = UDim2.new(-0.198603809, 0, -2.11220288, 0)
+Menu_2.Size = UDim2.new(0.474505067, 0, 0, 0)
+Menu_2.ScrollBarThickness = 8
+
+UI_2.Name = "UI"
+UI_2.Parent = Menu_2
+UI_2.SortOrder = Enum.SortOrder.LayoutOrder
+
+Filler_2.Name = "Filler"
+Filler_2.Parent = Menu_2
+Filler_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Filler_2.BackgroundTransparency = 1.000
+Filler_2.BorderSizePixel = 0
+Filler_2.Size = UDim2.new(0, 100, 0, 100)
+Filler_2.Visible = false
+
+TextButton.Parent = Filler_2
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.BorderSizePixel = 0
+TextButton.Size = UDim2.new(3.52200007, 0, 0, 35)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.Text = "COMING SOON!"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+DustMenu.Name = "DustMenu"
+DustMenu.Parent = Menu_2
+DustMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+DustMenu.BackgroundTransparency = 1.000
+DustMenu.BorderSizePixel = 0
+DustMenu.Size = UDim2.new(0, 100, 0, 100)
+DustMenu.Visible = false
+
+TextButton_2.Parent = DustMenu
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.BackgroundTransparency = 1.000
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Size = UDim2.new(3.52200007, 0, 0, 35)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "SlimeX"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+
+TextButton_3.Parent = DustMenu
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.BackgroundTransparency = 1.000
+TextButton_3.BorderSizePixel = 0
+TextButton_3.Position = UDim2.new(3.05175774e-07, 0, 0.349999994, 0)
+TextButton_3.Size = UDim2.new(3.52200007, 0, 0.0599999987, 35)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Climb Walls /  Fullbright!"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+LocalPlayerMenu.Name = "LocalPlayerMenu"
+LocalPlayerMenu.Parent = Menu_2
+LocalPlayerMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+LocalPlayerMenu.BackgroundTransparency = 1.000
+LocalPlayerMenu.BorderSizePixel = 0
+LocalPlayerMenu.Size = UDim2.new(0, 100, 0, 100)
+LocalPlayerMenu.Visible = false
+
+TextButton_4.Parent = LocalPlayerMenu
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.BackgroundTransparency = 1.000
+TextButton_4.BorderSizePixel = 0
+TextButton_4.Size = UDim2.new(3.52200007, 0, 0, 35)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "Infinite Jump"
+TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.TextScaled = true
+TextButton_4.TextSize = 14.000
+TextButton_4.TextWrapped = true
+
+-- Scripts:
+
+local function ULFQO_fake_script() -- Selection.Smooth RGB Script 
+	local script = Instance.new('Script', Selection)
+
+	function funktio()
+		for h=0,1,0.003 do
+			wait()
+			local rgb = Color3.fromHSV(h,1,1)
+			script.Parent.TextColor3 = rgb
+		end funktio()
+	end
+	
+	funktio()
+end
+coroutine.wrap(ULFQO_fake_script)()
+local function KVNSJ_fake_script() -- DropDown.Effect 
+	local script = Instance.new('LocalScript', DropDown)
+
+	local drop = script.Parent
+	local menu = drop.Menu
+	local open = menu.Open.Value
+	local selection = drop.Selection
+	
+	function fitAll()
+		menu.CanvasSize = UDim2.new(1, 0, 0, menu.UI.AbsoluteContentSize.Y)
+	end
+	
+	function trigger()
+		if not open then
+			menu:TweenSize(UDim2.new(1, 0, 5, 0), "Out", "Sine", 0.15, true)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = true
+				end
+			end
+			wait(0.15)
+			fitAll()
+			menu.ScrollBarImageTransparency = 0
+			open = true
+		else
+			menu:TweenSize(UDim2.new(1, 0, 0, 0), "Out", "Sine", 0.15, true)
+			wait(0.05)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = false
+				end
+			end
+			menu.ScrollBarImageTransparency = 1
+			open = false
+		end
+	end
+	
+	selection.MouseButton1Click:Connect(trigger)
+	
+	for _, button in pairs(menu:GetChildren()) do
+		if button:IsA("TextButton") then
+			button.MouseEnter:Connect(function()
+				button.BackgroundTransparency = 0.8
+			end)
+			button.MouseLeave:Connect(function()
+				button.BackgroundTransparency = 1
+			end)
+			button.MouseButton1Click:Connect(function()
+				selection.Text = button.Text
+				trigger()
+			end)
+		end
+	end
+end
+coroutine.wrap(KVNSJ_fake_script)()
+local function OKYSTNP_fake_script() -- Button.LocalScript 
+	local script = Instance.new('LocalScript', Button)
+
+	function leftClick()
+	print("Da Hood isnt here yet but slime will add it via loadstring...")
+	end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(OKYSTNP_fake_script)()
+local function KJDV_fake_script() -- Menu.LocalScript 
+	local script = Instance.new('LocalScript', Menu)
+
+	if script.Parent.Parent.Selection.Text == "Dust: Wasteland Survival" then
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SlimePlayz/SlimeXDust/main/Obfuscated.lua'))()
+	end
+end
+coroutine.wrap(KJDV_fake_script)()
+local function LMQIO_fake_script() -- Selection_2.Smooth RGB Script 
+	local script = Instance.new('Script', Selection_2)
+
+	function funktio()
+		for h=0,1,0.003 do
+			wait()
+			local rgb = Color3.fromHSV(h,1,1)
+			script.Parent.TextColor3 = rgb
+		end funktio()
+	end
+	
+	funktio()
+end
+coroutine.wrap(LMQIO_fake_script)()
+local function TQOZNG_fake_script() -- Local.Effect 
+	local script = Instance.new('LocalScript', Local)
+
+	local drop = script.Parent
+	local menu = drop.Menu
+	local open = menu.Open.Value
+	local selection = drop.Selection
+	
+	function fitAll()
+		menu.CanvasSize = UDim2.new(1, 0, 0, menu.UI.AbsoluteContentSize.Y)
+	end
+	
+	function trigger()
+		if not open then
+			menu:TweenSize(UDim2.new(1, 0, 5, 0), "Out", "Sine", 0.15, true)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = true
+				end
+			end
+			wait(0.15)
+			fitAll()
+			menu.ScrollBarImageTransparency = 0
+			open = true
+		else
+			menu:TweenSize(UDim2.new(1, 0, 0, 0), "Out", "Sine", 0.15, true)
+			wait(0.05)
+			for _, button in pairs(menu:GetChildren()) do
+				if button:IsA("TextButton") then
+					button.Visible = false
+				end
+			end
+			menu.ScrollBarImageTransparency = 1
+			open = false
+		end
+	end
+	
+	selection.MouseButton1Click:Connect(trigger)
+	
+	for _, button in pairs(menu:GetChildren()) do
+		if button:IsA("TextButton") then
+			button.MouseEnter:Connect(function()
+				button.BackgroundTransparency = 0.8
+			end)
+			button.MouseLeave:Connect(function()
+				button.BackgroundTransparency = 1
+			end)
+			button.MouseButton1Click:Connect(function()
+				selection.Text = button.Text
+				trigger()
+			end)
+		end
+	end
+end
+coroutine.wrap(TQOZNG_fake_script)()
+local function TFSWS_fake_script() -- Menu_2.LocalScript 
+	local script = Instance.new('LocalScript', Menu_2)
+
+	if script.Parent.Parent.Selection.Text == "Dust: Wasteland Survival" then
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SlimePlayz/SlimeXDust/main/Obfuscated.lua'))()
+	end
+end
+coroutine.wrap(TFSWS_fake_script)()
+local function EDWWAP_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	function leftClick()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SlimePlayz/SlimeXDust/main/Obfuscated.lua'))()
+		
+		local function callback(Text)
+		end
+	
+		local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Loaded SlimeX Trial!";
+			Text = "https://discord.gg/9JTXCFJZ";
+			Duration = "5";
+			Callback = NotificationBindable;
+		})
+	end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(EDWWAP_fake_script)()
+local function HYVPKCO_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	function leftClick()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/SlimeXPerson/SlimeXTrial/main/DustClimb'))()
+		
+		local function callback(Text)
+		end
+	
+		local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Press Enable Tp And Press X To Climb Walls!";
+			Text = "DO NOT SPAM";
+			Duration = "5";
+			Callback = NotificationBindable;
+		})
+	end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(HYVPKCO_fake_script)()
+local function FIPTZ_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	function leftClick()
+		loadstring(game:HttpGet(('https://pastebin.com/raw/2eYepag7'),true))()
+		
+		local function callback(Text)
+		end
+	
+		local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+	
+		game.StarterGui:SetCore("SendNotification", {
+			Title = "Vortex Bypassed Inf Jump Loaded!";
+			Text = "Works For 90% of Games! Even Anti Cheat!";
+			Duration = "5";
+			Callback = NotificationBindable;
+		})
+	end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(FIPTZ_fake_script)()
+local function EHTUUHW_fake_script() -- Vortex.ButtonSelect 
+	local script = Instance.new('LocalScript', Vortex)
+
+	while true do
+		wait(0.2)
+	if script.Parent.DropDown.Selection.Text == "LocalPlayer" then
+		script.Parent.Local.Selection.Text = "LocalPlayer"
+			script.Parent.DropDown.Selection.Text = "Vortex Hub:"
+			script.Parent.Local.Visible = true
+			script.Parent.Local.Menu.DustMenu.Visible = false
+			script.Parent.Local.Menu.Filler.Visible = false
+			script.Parent.Local.Menu.LocalPlayerMenu.Visible = true
+		end
+	end
+end
+coroutine.wrap(EHTUUHW_fake_script)()
+local function HMEV_fake_script() -- Vortex.ButtonExit 
+	local script = Instance.new('LocalScript', Vortex)
+
+	while true do
+		wait(0.2)
+		if script.Parent.DropDown.Selection.Text == "Exit" then
+			script.Parent.Local.Visible = false
+			script.Parent.DropDown.Selection.Text = "Vortex Hub"
+		end
+	end
+end
+coroutine.wrap(HMEV_fake_script)()
+local function HNOZREB_fake_script() -- Vortex.ButtonDust 
+	local script = Instance.new('LocalScript', Vortex)
+
+	while true do
+		wait(0.2)
+		if script.Parent.DropDown.Selection.Text == "Dust: Wasteland Survival" then
+			script.Parent.Local.Selection.Text = "Dust: Wasteland Survival"
+			script.Parent.DropDown.Selection.Text = "Vortex Hub"
+			script.Parent.Local.Menu.DustMenu.Visible = true
+			script.Parent.Local.Menu.Filler.Visible = false
+			script.Parent.Local.Menu.LocalPlayerMenu.Visible = false
+			script.Parent.Local.Visible = true
+		end
+	end
+end
+coroutine.wrap(HNOZREB_fake_script)()
+local function UPTTAD_fake_script() -- Vortex.ButtonHood 
+	local script = Instance.new('LocalScript', Vortex)
+
+	while true do
+		wait(0.2)
+		if script.Parent.DropDown.Selection.Text == "Da Hood" then
+			script.Parent.Local.Selection.Text = "Da Hood"
+			script.Parent.DropDown.Selection.Text = "Vortex Hub"
+			script.Parent.Local.Menu.DustMenu.Visible = false
+			script.Parent.Local.Menu.Filler.Visible = true
+			script.Parent.Local.Menu.LocalPlayerMenu.Visible = false
+			script.Parent.Local.Visible = true
+	
+		end
+	end
+end
+coroutine.wrap(UPTTAD_fake_script)()
+local function ARHY_fake_script() -- Vortex.ButtonFiller 
+	local script = Instance.new('LocalScript', Vortex)
+
+	while true do
+		wait(0.2)
+		if script.Parent.DropDown.Selection.Text == "Coming Soon!" then
+			script.Parent.DropDown.Selection.Text = "Vortex Hub"
+		end
+	end
+end
+coroutine.wrap(ARHY_fake_script)()
