@@ -1,0 +1,419 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local Laz = Instance.new("ScreenGui")
+local ImageLabel = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+local UICorner_2 = Instance.new("UICorner")
+local Frame = Instance.new("Frame")
+local TextButton_2 = Instance.new("TextButton")
+local sad = Instance.new("Frame")
+local TextButton_3 = Instance.new("TextButton")
+local TextButton_4 = Instance.new("TextButton")
+local TextButton_5 = Instance.new("TextButton")
+local TextButton_6 = Instance.new("TextButton")
+local TextButton_7 = Instance.new("TextButton")
+local TextButton_8 = Instance.new("TextButton")
+local TextButton_9 = Instance.new("TextButton")
+local TextButton_10 = Instance.new("TextButton")
+local TextButton_11 = Instance.new("TextButton")
+local TextButton_12 = Instance.new("TextButton")
+local TextButton_13 = Instance.new("TextButton")
+local TextButton_14 = Instance.new("TextButton")
+local TextButton_15 = Instance.new("TextButton")
+local TextButton_16 = Instance.new("TextButton")
+
+--Properties:
+
+Laz.Name = "Laz"
+Laz.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+ImageLabel.Parent = Laz
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.Position = UDim2.new(0.871222079, -100, 0.5, -50)
+ImageLabel.Size = UDim2.new(0, 100, 0, 100)
+ImageLabel.Image = "http://www.roblox.com/asset/?id=2841538434"
+
+TextButton.Parent = ImageLabel
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BackgroundTransparency = 1.000
+TextButton.Size = UDim2.new(0, 100, 0, 100)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
+TextButton.TextTransparency = 1.000
+
+UICorner.CornerRadius = UDim.new(0.25, 0)
+UICorner.Parent = TextButton
+
+UICorner_2.CornerRadius = UDim.new(0.25, 0)
+UICorner_2.Parent = ImageLabel
+
+Frame.Parent = Laz
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.Position = UDim2.new(0.822601795, 0, -0.00122844963, 0)
+Frame.Size = UDim2.new(0, 48, 0, 44)
+
+TextButton_2.Parent = Frame
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.Position = UDim2.new(-0.000602722168, 0, -0.0270270444, 0)
+TextButton_2.Size = UDim2.new(0, 48, 0, 43)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "Numbers"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+sad.Name = "sad"
+sad.Parent = Frame
+sad.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+sad.Position = UDim2.new(-10.625, 0, -0.0227272511, 0)
+sad.Size = UDim2.new(0, 509, 0, 44)
+
+TextButton_3.Parent = sad
+TextButton_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.Position = UDim2.new(0.0864440203, -50, 0.431818187, -25)
+TextButton_3.Size = UDim2.new(0, 50, 0, 50)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "1"
+TextButton_3.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_3.TextSize = 14.000
+
+TextButton_4.Parent = sad
+TextButton_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_4.Position = UDim2.new(0.97053045, -50, 0.431818187, -25)
+TextButton_4.Size = UDim2.new(0, 50, 0, 50)
+TextButton_4.Font = Enum.Font.SourceSans
+TextButton_4.Text = "0"
+TextButton_4.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_4.TextSize = 14.000
+
+TextButton_5.Parent = sad
+TextButton_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_5.Position = UDim2.new(0.872298658, -50, 0.431818187, -25)
+TextButton_5.Size = UDim2.new(0, 50, 0, 50)
+TextButton_5.Font = Enum.Font.SourceSans
+TextButton_5.Text = "9"
+TextButton_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_5.TextSize = 14.000
+
+TextButton_6.Parent = sad
+TextButton_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_6.Position = UDim2.new(0.774066806, -50, 0.431818187, -25)
+TextButton_6.Size = UDim2.new(0, 50, 0, 50)
+TextButton_6.Font = Enum.Font.SourceSans
+TextButton_6.Text = "8"
+TextButton_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_6.TextSize = 14.000
+
+TextButton_7.Parent = sad
+TextButton_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_7.Position = UDim2.new(0.675835013, -50, 0.431818187, -25)
+TextButton_7.Size = UDim2.new(0, 50, 0, 50)
+TextButton_7.Font = Enum.Font.SourceSans
+TextButton_7.Text = "7"
+TextButton_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_7.TextSize = 14.000
+
+TextButton_8.Parent = sad
+TextButton_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_8.Position = UDim2.new(0.577603161, -50, 0.431818187, -25)
+TextButton_8.Size = UDim2.new(0, 50, 0, 50)
+TextButton_8.Font = Enum.Font.SourceSans
+TextButton_8.Text = "6"
+TextButton_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_8.TextSize = 14.000
+
+TextButton_9.Parent = sad
+TextButton_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_9.Position = UDim2.new(0.479371339, -50, 0.431818187, -25)
+TextButton_9.Size = UDim2.new(0, 50, 0, 50)
+TextButton_9.Font = Enum.Font.SourceSans
+TextButton_9.Text = "5"
+TextButton_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_9.TextSize = 14.000
+
+TextButton_10.Parent = sad
+TextButton_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_10.Position = UDim2.new(0.381139517, -50, 0.431818187, -25)
+TextButton_10.Size = UDim2.new(0, 50, 0, 50)
+TextButton_10.Font = Enum.Font.SourceSans
+TextButton_10.Text = "4"
+TextButton_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_10.TextSize = 14.000
+
+TextButton_11.Parent = sad
+TextButton_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_11.Position = UDim2.new(0.282907665, -50, 0.431818187, -25)
+TextButton_11.Size = UDim2.new(0, 50, 0, 50)
+TextButton_11.Font = Enum.Font.SourceSans
+TextButton_11.Text = "3"
+TextButton_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_11.TextSize = 14.000
+
+TextButton_12.Parent = sad
+TextButton_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_12.Position = UDim2.new(0.184675843, -50, 0.431818187, -25)
+TextButton_12.Size = UDim2.new(0, 50, 0, 50)
+TextButton_12.Font = Enum.Font.SourceSans
+TextButton_12.Text = "2"
+TextButton_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_12.TextSize = 14.000
+
+TextButton_13.Parent = sad
+TextButton_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_13.Position = UDim2.new(1.38899803, -50, 0.431818187, -25)
+TextButton_13.Size = UDim2.new(0, 50, 0, 50)
+TextButton_13.Font = Enum.Font.SourceSans
+TextButton_13.Text = "r"
+TextButton_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_13.TextSize = 14.000
+
+TextButton_14.Parent = sad
+TextButton_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_14.Position = UDim2.new(1.29076624, -50, 0.431818157, -25)
+TextButton_14.Size = UDim2.new(0, 50, 0, 50)
+TextButton_14.Font = Enum.Font.SourceSans
+TextButton_14.Text = "f"
+TextButton_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_14.TextSize = 14.000
+
+TextButton_15.Parent = sad
+TextButton_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_15.Position = UDim2.new(1.19449902, -50, 0.386363626, -25)
+TextButton_15.Size = UDim2.new(0, 50, 0, 50)
+TextButton_15.Font = Enum.Font.SourceSans
+TextButton_15.Text = "e"
+TextButton_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_15.TextSize = 14.000
+
+TextButton_16.Parent = sad
+TextButton_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_16.Position = UDim2.new(1.48722982, -50, 0.386363626, -25)
+TextButton_16.Size = UDim2.new(0, 50, 0, 50)
+TextButton_16.Font = Enum.Font.SourceSans
+TextButton_16.Text = "i"
+TextButton_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_16.TextSize = 14.000
+
+-- Scripts:
+
+local function DYSOXA_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	function leftclick()
+		local event = game.ReplicatedStorage.RemoteEvents.HarvestEvent
+		local plr = game.Players.LocalPlayer
+	
+		local arg = plr:GetMouse().Target.Position
+		local A_1 = "Fire"
+		local Event = game:GetService("Workspace").lolpkmaxo.ServerScript.WeaponSound
+		Event:FireServer(A_1)
+		-- Script generated by R2Sv2
+		-- R2Sv2 developed by Luckyxero
+	
+		local A_1 = "Tracer"
+		local A_2 = Vector3.new(plr:GetMouse().Target.Parent, arg)
+		local Event = game:GetService("Workspace").lolpkmaxo.ServerScript.WeaponImpact
+		Event:FireServer(A_1, A_2)
+	
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(DYSOXA_fake_script)()
+local function BTOX_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	function leftClick()
+		if script.Parent.Parent.sad.Visible == false then
+			script.Parent.Parent.sad.Visible = true
+		else
+			script.Parent.Parent.sad.Visible = false
+		end
+	end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(BTOX_fake_script)()
+local function PRUYN_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	function leftclick()
+	local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x31') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x31') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(PRUYN_fake_script)()
+local function RIDE_fake_script() -- TextButton_4.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_4)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x30') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x30') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(RIDE_fake_script)()
+local function LXWM_fake_script() -- TextButton_5.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_5)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x39') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x39') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(LXWM_fake_script)()
+local function ADNJOFJ_fake_script() -- TextButton_6.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_6)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x38') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x38') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(ADNJOFJ_fake_script)()
+local function YKUU_fake_script() -- TextButton_7.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_7)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x37') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x37') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(YKUU_fake_script)()
+local function ILAQ_fake_script() -- TextButton_8.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_8)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x36') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x36') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(ILAQ_fake_script)()
+local function EAMP_fake_script() -- TextButton_9.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_9)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x35') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x35') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(EAMP_fake_script)()
+local function UVWZ_fake_script() -- TextButton_10.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_10)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x34') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x34') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(UVWZ_fake_script)()
+local function TBJQFMB_fake_script() -- TextButton_11.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_11)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x33') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x33') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(TBJQFMB_fake_script)()
+local function OOQPY_fake_script() -- TextButton_12.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_12)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x32') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x32') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(OOQPY_fake_script)()
+local function IOCA_fake_script() -- TextButton_13.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_13)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x52') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x52') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(IOCA_fake_script)()
+local function NRKO_fake_script() -- TextButton_14.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_14)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x46') -- This will press the key you put between the apostrophes
+	virtualUser:SetKeyUp('0x46') -- This will release the key you put between the apostrophes
+		end
+		script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(NRKO_fake_script)()
+local function YPNCE_fake_script() -- TextButton_15.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_15)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x45') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x45') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(YPNCE_fake_script)()
+local function ZCWQ_fake_script() -- TextButton_16.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_16)
+
+	function leftclick()
+		local virtualUser = game:GetService('VirtualUser')
+	virtualUser:CaptureController()
+	
+	virtualUser:SetKeyDown('0x69') -- This will press the key you put between the apostrophes
+		virtualUser:SetKeyUp('0x69') -- This will release the key you put between the apostrophes
+		end
+	script.Parent.MouseButton1Click:Connect(leftClick)
+end
+coroutine.wrap(ZCWQ_fake_script)()
