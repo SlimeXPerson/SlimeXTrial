@@ -30,7 +30,6 @@ local TextButton_16 = Instance.new("TextButton")
 
 Dust.Name = "Dust"
 Dust.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-Dust.Enabled = false
 
 ImageLabel.Parent = Dust
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -201,7 +200,7 @@ TextButton_16.TextSize = 14.000
 
 -- Scripts:
 
-local function AGKY_fake_script() -- TextButton.LocalScript 
+local function ZUCNLNF_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	function leftclick()
@@ -212,8 +211,8 @@ local function AGKY_fake_script() -- TextButton.LocalScript
 		event:FireServer(plr:GetMouse().Target.Parent, arg)
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(AGKY_fake_script)()
-local function ZDWSA_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(ZUCNLNF_fake_script)()
+local function JMHS_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	function leftClick()
@@ -225,8 +224,8 @@ local function ZDWSA_fake_script() -- TextButton_2.LocalScript
 	end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(ZDWSA_fake_script)()
-local function PDUYSDJ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(JMHS_fake_script)()
+local function HPIIDTS_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	function leftclick()
@@ -238,8 +237,8 @@ local function PDUYSDJ_fake_script() -- TextButton_3.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(PDUYSDJ_fake_script)()
-local function QOZTFBU_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(HPIIDTS_fake_script)()
+local function PYUQPIE_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	function leftclick()
@@ -251,8 +250,8 @@ local function QOZTFBU_fake_script() -- TextButton_4.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(QOZTFBU_fake_script)()
-local function YASJ_fake_script() -- TextButton_5.LocalScript 
+coroutine.wrap(PYUQPIE_fake_script)()
+local function JBIYMEG_fake_script() -- TextButton_5.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_5)
 
 	function leftclick()
@@ -264,8 +263,8 @@ local function YASJ_fake_script() -- TextButton_5.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(YASJ_fake_script)()
-local function PDVWBUC_fake_script() -- TextButton_6.LocalScript 
+coroutine.wrap(JBIYMEG_fake_script)()
+local function TFKJ_fake_script() -- TextButton_6.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_6)
 
 	function leftclick()
@@ -277,8 +276,8 @@ local function PDVWBUC_fake_script() -- TextButton_6.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(PDVWBUC_fake_script)()
-local function EDYXV_fake_script() -- TextButton_7.LocalScript 
+coroutine.wrap(TFKJ_fake_script)()
+local function JVVW_fake_script() -- TextButton_7.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_7)
 
 	function leftclick()
@@ -290,8 +289,8 @@ local function EDYXV_fake_script() -- TextButton_7.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(EDYXV_fake_script)()
-local function RMBLOEN_fake_script() -- TextButton_8.LocalScript 
+coroutine.wrap(JVVW_fake_script)()
+local function MUBSMPA_fake_script() -- TextButton_8.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_8)
 
 	function leftclick()
@@ -303,8 +302,8 @@ local function RMBLOEN_fake_script() -- TextButton_8.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(RMBLOEN_fake_script)()
-local function TEDCQP_fake_script() -- TextButton_9.LocalScript 
+coroutine.wrap(MUBSMPA_fake_script)()
+local function XIEBZ_fake_script() -- TextButton_9.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_9)
 
 	function leftclick()
@@ -316,8 +315,8 @@ local function TEDCQP_fake_script() -- TextButton_9.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(TEDCQP_fake_script)()
-local function IZLCJXM_fake_script() -- TextButton_10.LocalScript 
+coroutine.wrap(XIEBZ_fake_script)()
+local function AJICFU_fake_script() -- TextButton_10.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_10)
 
 	function leftclick()
@@ -329,8 +328,8 @@ local function IZLCJXM_fake_script() -- TextButton_10.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(IZLCJXM_fake_script)()
-local function XQEU_fake_script() -- TextButton_11.LocalScript 
+coroutine.wrap(AJICFU_fake_script)()
+local function CDEKX_fake_script() -- TextButton_11.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_11)
 
 	function leftclick()
@@ -342,8 +341,8 @@ local function XQEU_fake_script() -- TextButton_11.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(XQEU_fake_script)()
-local function DIFMTAW_fake_script() -- TextButton_12.LocalScript 
+coroutine.wrap(CDEKX_fake_script)()
+local function ILKTSB_fake_script() -- TextButton_12.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_12)
 
 	function leftclick()
@@ -355,8 +354,8 @@ local function DIFMTAW_fake_script() -- TextButton_12.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(DIFMTAW_fake_script)()
-local function QBBE_fake_script() -- TextButton_13.LocalScript 
+coroutine.wrap(ILKTSB_fake_script)()
+local function GCOXWWM_fake_script() -- TextButton_13.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_13)
 
 	function leftclick()
@@ -368,8 +367,8 @@ local function QBBE_fake_script() -- TextButton_13.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(QBBE_fake_script)()
-local function JWSLZFC_fake_script() -- TextButton_14.LocalScript 
+coroutine.wrap(GCOXWWM_fake_script)()
+local function LOUW_fake_script() -- TextButton_14.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_14)
 
 	function leftclick()
@@ -381,8 +380,8 @@ local function JWSLZFC_fake_script() -- TextButton_14.LocalScript
 		end
 		script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(JWSLZFC_fake_script)()
-local function TVVLOPR_fake_script() -- TextButton_15.LocalScript 
+coroutine.wrap(LOUW_fake_script)()
+local function XAKDA_fake_script() -- TextButton_15.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_15)
 
 	function leftclick()
@@ -394,8 +393,8 @@ local function TVVLOPR_fake_script() -- TextButton_15.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(TVVLOPR_fake_script)()
-local function TMXUUNM_fake_script() -- TextButton_16.LocalScript 
+coroutine.wrap(XAKDA_fake_script)()
+local function RBYKI_fake_script() -- TextButton_16.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_16)
 
 	function leftclick()
@@ -407,4 +406,4 @@ local function TMXUUNM_fake_script() -- TextButton_16.LocalScript
 		end
 	script.Parent.MouseButton1Click:Connect(leftClick)
 end
-coroutine.wrap(TMXUUNM_fake_script)()
+coroutine.wrap(RBYKI_fake_script)()
